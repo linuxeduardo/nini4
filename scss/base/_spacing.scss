@@ -1,0 +1,71 @@
+$columns: 5;
+$spacing: 10;
+$fac: 4;
+
+@for $i from 1 through $columns {
+  .col-#{$i} {
+    width: (100% / $i);
+  }
+}
+
+@for $i from 1 through $spacing {
+  .m-#{$i} {
+    margin: ($fac * $i + px);
+  }
+}
+
+@for $i from 1 through $spacing {
+  .mt-#{$i} {
+    margin-top: ($fac * $i + px);
+  }
+}
+
+@for $i from 1 through $spacing {
+  .mr-#{$i} {
+    margin-right: ($fac * $i + px);
+  }
+}
+
+@for $i from 1 through $spacing {
+  .mb-#{$i} {
+    margin-bottom: ($fac * $i + px);
+  }
+}
+
+@for $i from 1 through $spacing {
+  .ml-#{$i} {
+    margin-left: ($fac * $i + px);
+  }
+}
+
+// pad
+
+@for $i from 1 through $spacing {
+  .p-#{$i} {
+    padding: ($fac * $i + px);
+  }
+}
+
+@for $i from 1 through $spacing {
+  .pt-#{$i} {
+    padding-top: ($fac * $i + px);
+  }
+}
+
+@for $i from 1 through $spacing {
+  .pr-#{$i} {
+    padding-right: ($fac * $i + px);
+  }
+}
+
+@for $i from 1 through $spacing {
+  .pb-#{$i} {
+    padding-bottom: ($fac * $i + px);
+  }
+}
+
+@for $i from 1 through $spacing {
+  .pl-#{$i} {
+    padding-left: ($fac * $i + px);
+  }
+}

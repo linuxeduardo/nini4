@@ -1,0 +1,65 @@
+//Button
+.btn,
+.btn-icon {
+  padding: 10px 14px;
+  display: block;
+  border: 2px solid transparent;
+  font-family: $font-ss;
+
+  outline: none;
+
+  &.btn-primary {
+    color: $white;
+    background-color: $primary;
+  }
+  &.btn-secondary {
+    color: $white;
+    background-color: $secondary;
+  }
+  &.btn-tertiary {
+    color: $white;
+    background-color: $tertiary;
+  }
+
+  &.btn-small {
+    font-size: $font-small;
+  }
+  &.btn-big {
+    font-size: $font-big;
+  }
+
+  &.btn-border {
+    border: 2px solid;
+  }
+
+  &:disabled,
+  &.disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+    color: $white-00;
+    background-color: $white-90;
+    opacity: $disabled-opacity;
+  }
+
+  &:active {
+    cursor: pointer;
+    border: 2px dashed;
+  }
+  &:focus {
+    cursor: pointer;
+    border: 2px dashed;
+  }
+  &:hover {
+    cursor: pointer;
+    // border: 2px solid;
+  }
+}
+
+.btn-icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  span {
+    font-size: 18px;
+  }
+}

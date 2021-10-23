@@ -1,0 +1,25 @@
+form {
+  .form-group {
+    margin-bottom: 1rem;
+    label {
+      color: $white-20;
+      display: block;
+      font-size: $font-small;
+    }
+    input {
+      border-bottom: 2px solid;
+      padding: 10px 10px 9px 10px;
+      outline: none;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 2px solid;
+      &:hover {
+      }
+      &:active,
+      &:focus {
+        border-bottom: 2px dashed $primary;
+      }
+    }
+  }
+}

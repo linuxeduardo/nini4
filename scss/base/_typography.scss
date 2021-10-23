@@ -1,0 +1,17 @@
+$font-ss: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
+$font-cs: 'Bitter', Cambria, Cochin, Georgia, Times, 'Times New Roman',
+  serif;
+$font-mo: 'IBM Plex Mono', 'Courier New', Courier, monospace;
+
+.ss {
+  font-family: $font-ss;
+}
+
+.cs {
+  letter-spacing: 0.38px;
+  font-family: $font-cs;
+}
+
+.mo {
+  font-family: $font-mo;
+}
