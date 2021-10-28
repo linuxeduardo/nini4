@@ -69,3 +69,9 @@ $fac: 4;
     padding-left: ($fac * $i + px);
   }
 }
+
+@for $i from 1 through $spacing {
+  .gap-#{$i} {
+    gap: ($fac * $i + px);
+  }
+}

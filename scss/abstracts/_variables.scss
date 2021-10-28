@@ -1,5 +1,5 @@
 $red: #ef4b46;
-$blue: dodgerblue;
+$blue: #2594d9;
 $yellow: rgba(239, 181, 67, 1);
 $white: rgb(255, 255, 255);
 $black: rgb(0, 0, 0);
@@ -14,10 +14,17 @@ $white-80: rgb(125, 125, 125);
 $white-90: rgb(209, 209, 209);
 $white-100: rgb(238, 238, 238);
 
-$primary: #da627d;
-$secondary: #4cb4d9;
-$tertiary: #ace497;
+$primary: #2594d9;
+$secondary: #69b2df;
+$tertiary: #2a4759;
 
 $font-small: 0.65rem;
 $font-normal: 1rem;
 $font-big: 1.5rem;
+
+$shadow-1: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+$shadow-2: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+$shadow-3: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+  rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+$shadow-4: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+  rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;

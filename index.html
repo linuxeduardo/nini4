@@ -16,7 +16,7 @@
   </head>
   <body>
     <h1>NINI 4</h1>
-    <div class="flex-c-c-c">
+    <div class="flex-c-c-c mb-7">
       <h4>button</h4>
       <button class="btn btn-primary">button</button>
       <button class="btn btn-secondary">button</button>
@@ -28,7 +28,7 @@
 
     <hr class="secondary" />
 
-    <div class="flex-c-c-c">
+    <div class="flex-c-c-c mb-7">
       <h4>button size</h4>
       <button class="btn btn-small btn-primary">button</button>
       <button class="btn btn-secondary">button</button>
@@ -39,7 +39,7 @@
 
     <hr class="secondary" />
 
-    <div class="flex-c-c-c">
+    <div class="flex-c-c-c mb-7">
       <h4>button border</h4>
       <button class="btn btn-border btn-small btn-primary">
         button
@@ -52,7 +52,7 @@
 
     <hr class="black" />
 
-    <div class="flex-c-c-c">
+    <div class="flex-c-c-c mb-7">
       <h4>icon buttons</h4>
       <button class="btn-icon btn-primary">
         <span class="material-icons"> account_circle </span> button
@@ -68,7 +68,7 @@
 
     <hr class="primary" />
 
-    <div class="flex-c-c-c">
+    <div class="flex-c-c-c mb-7">
       <h4>form</h4>
       <form>
         <div class="form-group">
@@ -88,7 +88,7 @@
 
     <hr class="primary" />
 
-    <div class="flex-c-c-c">
+    <div class="flex-c-c-c mb-7">
       <h4>paragraph</h4>
       <p>
         Vista do Centro Stata (Stata Center), um complexo acadêmico
@@ -107,7 +107,7 @@
 
     <hr class="primary" />
 
-    <div class="flex-c-c-c">
+    <div class="flex-c-c-c mb-7">
       <h4>alerts</h4>
       <div class="alert alert-info mb-5">A simple alert.</div>
       <div class="alert alert-success mb-4">A simple alert.</div>
@@ -116,7 +116,7 @@
     </div>
 
     <hr class="primary" />
-    <div class="flex-c-c-c">
+    <div class="flex-c-c-c mb-7">
       <h4>alerts</h4>
       <div class="h6">Margin</div>
       <div class="div m-7">margin .m-7</div>
@@ -133,7 +133,7 @@
     </div>
 
     <hr class="primary" />
-    <div class="flex-c-c-c">
+    <div class="flex-c-c-c mb-7">
       <h4>font family</h4>
       <h6>Serif</h6>
       <p class="cs">
@@ -155,6 +155,51 @@
         similique, maiores magnam quibusdam suscipit odit ab natus,
         sunt vel odio iste dignissimos!
       </p>
+    </div>
+
+    <hr class="primary" />
+    <div class="flex-c-c-c mb-7 mb-7">
+      <h4>modal</h4>
+      <div class="modal-container">
+        <div class="modal">
+          <button id="btn-modal-close" class="btn modal-close">
+            close
+          </button>
+          <h4>modal</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Quis assumenda quod libero.
+          </p>
+          <div class="flex gap-1">
+            <button class="btn btn-secondary">show modal</button>
+            <button class="btn btn-secondary">btn-secondary</button>
+          </div>
+        </div>
+      </div>
+      <button id="btn-modal" class="btn btn-primary">
+        show modal
+      </button>
+    </div>
+
+    <script>
+      const btnModal = document.getElementById('btn-modal');
+      const btnModalClose =
+        document.getElementById('btn-modal-close');
+      const modal = document.querySelector('.modal-container');
+
+      btnModal.addEventListener('click', () => {
+        modal.classList.toggle('show');
+      });
+
+      btnModalClose.addEventListener('click', () => {
+        modal.classList.toggle('show');
+      });
+    </script>
+
+    <hr class="primary" />
+    <div class="flex-c-c-c mb-7">
+      <h4>gap</h4>
+      <div class="div p-7 m-3">gap-1 ... gap-10</div>
     </div>
   </body>
 </html>
